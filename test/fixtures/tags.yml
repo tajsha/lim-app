@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  h1: "[\"felipecsl/wombat\", \"Wombat\"]"
+  h2: "[\"felipecsl/wombat\", \"Wombat\"]"
+  h3: "[\"felipecsl/wombat\", \"Wombat\"]"
+  links: "[\"felipecsl/wombat\", \"Wombat\"]"
+  site: one
+
+two:
+  h1: "[\"felipecsl/wombat\", \"Wombat\"]"
+  h2: "[\"felipecsl/wombat\", \"Wombat\"]"
+  h3: "[\"felipecsl/wombat\", \"Wombat\"]"
+  links: "[\"felipecsl/wombat\", \"Wombat\"]"
+  site: two

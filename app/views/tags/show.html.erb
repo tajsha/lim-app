@@ -1,0 +1,29 @@
+<h3>Tags</h3>
+<ul class="collection">
+  <li class="collection-item">
+    <strong><span class="title">H1:</span></strong>
+    <p>
+      <%= html_safe_content(@tag.h1) %>
+    </p>
+  </li>
+  <li class="collection-item">
+    <strong><span class="title">H2:</span></strong>
+    <p>
+      <%= html_safe_content(@tag.h2) %>
+    </p>
+  </li>
+  <li class="collection-item">
+    <strong><span class="title">H3:</span></strong>
+    <p>
+      <%= html_safe_content(@tag.h3) %>
+    </p>
+  </li>
+  <li class="collection-item">
+    <strong><span class="title">Links:</span></strong>
+    <p>
+      <%= html_safe_content(@tag.links) %>
+    </p>
+  </li>
+</ul>
+
+<a  href="<%= sites_path %>" class="waves-effect waves-light btn">Back</a>

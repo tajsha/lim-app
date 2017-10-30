@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @site.url %>
+</p>
+
+
+<a  href="<%= edit_site_path(@site) %>" class="waves-effect waves-light btn"><i class="material-icons left">mode_edit</i>Edit</a>
+<a  href="<%= sites_path %>" class="waves-effect waves-light btn">Back</a>

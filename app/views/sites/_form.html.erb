@@ -1,0 +1,24 @@
+<%= form_with(model: site, local: true) do |form| %>
+  <% if site.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(site.errors.count, "error") %> prohibited this site from being saved:</h2>
+
+      <ul>
+      <% site.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :url %>
+    <%= form.url_field :url, id: :site_url, required: true %>
+  </div>
+
+  <div class="actions">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+  </div>
+<% end %>
